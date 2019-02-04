@@ -50,3 +50,7 @@
             git branch xxx 创建分支
             git checkout xxx 切换分支
             git checkout -切换回上一个分支 
+        3. 合并分支
+            先切换到master
+            git merge --no--ff feature-A
+
