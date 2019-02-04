@@ -24,6 +24,7 @@
     -  git clone git@github.com:hirocastest/studynote.git 
     - git add 将文件加入暂存区， git commit提交
     - git log 查看提交日志
+
         > MIT 许可协议具有以下特征。
         > - 被授权人权利：被授权人有权利使用、复制、修改、合并、出版发行、散布、 再授权和 / 或贩售软件及软件的副本，及授予被供应人同等权利，唯服从以下义务。 
         > - 被授权人义务：在软件和软件的所有副本中都必须包含以上版权声明和本许可 声明。 
@@ -33,7 +34,8 @@
     - git push github 上的仓库就会被更新
 
     ## 第四章 git基本操作
-        ### 基本操作
+
+    ### 基本操作
         1. git status 查看仓库状态
         2. git add 向暂存区中添加文件
         3. git commit 保存仓库的历史纪录，通过记录，可以在工作树中复原文件
@@ -59,7 +61,11 @@
         6. git rebase -i 压缩历史
             git commit -am添加并提交
 
-            123456
-            223456
-            123456
+    ### 推送至github
+        1. git remote add origin git@github.com:github-book/git-tutorial.git
+        2. git push -u origin master(或其他分支)
+        3. git branch -a命令查看当前分支的相关信息 
+        4. git pull 获取最新的远程仓库分支
+
+
 
