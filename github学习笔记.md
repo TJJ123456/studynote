@@ -53,4 +53,9 @@
         3. 合并分支
             先切换到master
             git merge --no--ff feature-A
+        4. 解决冲突
+            =======以上的部分是当前HEAD的内容
+        5. git commit --amend 修改上一条提交信息
+        6. git rebase -i 压缩历史
+            git commit -am添加并提交
 
