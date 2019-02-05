@@ -85,4 +85,16 @@ MIME类型是一种文本标记
         如 ftp://xxxx.xx.xx/xxx;type=d <br>
         或者两段 ftp://xxx.xxx/xxx;sale=false/xxx.html;type=d
     - 查询字符串
-        “?"右边的部分被称为查询（query）组件。
+        “?"右边的部分被称为查询（query）组件。<br>
+        常规格式为 http://xxx.xx/xxx?item=111&color=red
+    - 片段
+        URL可以指向HTML文档中一个特定的图片或小节 <br>
+        片段在URL的右手边，最前面有一个字符“#” <br>
+        如 http://xxx.xx/xxx#item <br>
+        片段仅由浏览器使用
+- URL快捷方式
+    - 相对URL <br>
+        相对URL都是相对基础URL进行解析的
+    - 自动扩展URL<br>
+        主机名扩展 <br>
+        历史扩展
